@@ -3,7 +3,7 @@ async function submitForm() {
     let age = Number(document.querySelector("#age").value);
 
     if (!nameValue || !age) {
-        alert("Please enter valid details.");
+        alert("Please enter valid details");
         return;
     }
 
